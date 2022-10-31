@@ -27,4 +27,26 @@ arr7.pop(); // delete element from end
 arr7.shift(); //removes from front
 arr7.unshift(21); //adds element in front
 
-arr.splice(2, 5); // used to delete specific number of
+arr.splice(2, 5); // used to delete specific number of elements from an array. splice(start_index, number of elements to be deleted)
+
+arr.reverse();
+
+let arr8 = [];
+
+for (let i = 1; i <= 100; i++) {
+  arr8[i - 1] = i;
+}
+console.log(arr8);
+
+//OBJECTS
+const myObj2 = {
+  name: "suraj",
+  surname: "verma",
+  income: 100000,
+  male: true,
+};
+
+myObj2.newData = "something";
+myObj2.date = "who knows";
+
+console.log(myObj2);
