@@ -18,3 +18,13 @@ console.log(a, b, c, d, e, f, g);
 
 //TYPEOF
 console.log(typeof d);
+
+//OBJECTS - non primitive data type
+
+const item = {
+  name: "suraj verma",
+  age: 23,
+  boolean: false,
+};
+
+console.log(item);

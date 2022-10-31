@@ -1,0 +1,14 @@
+//WHILE LOOP
+let n = Number.parseInt(prompt("enter a number"));
+let i = 0;
+while (i < n) {
+  console.log(i);
+  i++;
+}
+
+//DO WHILE LOOP
+
+do {
+  console.log(i);
+  i++;
+} while (i < n);
