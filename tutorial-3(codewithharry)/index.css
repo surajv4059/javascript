@@ -13,7 +13,15 @@ ul {
 }
 
 ul li {
-    color: white;
     list-style: none;
     margin: 0 23px;
+}
+
+.bulb{
+    background-color: yellow;
+}
+
+.bulb-container {
+    height: 341px;
+    width: 341px;
 }
